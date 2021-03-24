@@ -1,0 +1,64 @@
+body { 
+ 
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: RGBA(215, 231, 247, .1);
+  background-image: url(background_1.jpg);
+  background-attachment: scroll;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+
+.flex-container {
+ 
+}
+
+.card{
+  box-sizing: border-box;
+
+  background-color: #fff;
+  width: 350px;
+  top: 30%;
+  left: 37%;
+  margin-left: 10px;
+  position: absolute;
+
+  padding: 45px 45px 45px;
+  box-shadow: 4px 4px 5px rgba(70, 150, 0, .7);
+  border: 2px solid rgba(0, 179, 0, .1);
+
+}
+
+.log-in {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  justify-content: center;
+  color: #009933; 
+}
+
+
+
+.place {
+    background: #FFF; 
+    border: 1px solid #dddfe2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 22px;
+    line-height: 16px;
+    padding: 0 8px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+
+}
+
+.my_button {
+  display: flex;
+  justify-content: center;
+  margin: 5px auto;
+  padding:2px;
+}
+
+
